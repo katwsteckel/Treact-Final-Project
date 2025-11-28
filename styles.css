@@ -1,0 +1,11 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row__nav--row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;  
+}
