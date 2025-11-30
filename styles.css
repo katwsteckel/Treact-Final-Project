@@ -58,6 +58,7 @@ nav {
     color: rgb(101, 36, 230);
 }
 .for__you--wrapper {
+    padding: 60px;
     display: flex;
     width: 100%;
     max-width: 1200px;

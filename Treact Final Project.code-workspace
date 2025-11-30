@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "Treact Final Project",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "../Downloads/assets"
+		},
+		{
+			"name": "assets 2",
+			"path": "../Downloads/assets 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Treact Final Project"
+	}
+}
