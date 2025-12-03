@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Lato:wght@400;700&family=Poppins:wght@400;500;700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+
+font-family: "Poppins", "Roboto", sans-serif;
+
+}
 .row__nav--row {
+    padding-top: 36px;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;  
+    justify-content: space-between;
 }
 
 nav {
@@ -11,16 +18,17 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    justify-content: space-between;
 }
 .nav__logo {
    display: flex;
 }
 .nav__logo--img {
-    height: 50px;
+    height: 42px;
 }
 
 .nav__logo--title {
-    font-size: 50px;
+    font-size: 28px;
     padding-left: 16px;
     font-weight: 700;
 }
@@ -64,6 +72,7 @@ nav {
     max-width: 1200px;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
 }
 .row__for--you {
     display: flex;
@@ -75,7 +84,7 @@ nav {
     padding: 36px;
 }
 h1 {
-    font-size: 56px;
+    font-size: 40px;
 }
 .for__you--img {
 height: 600px;   
@@ -89,4 +98,82 @@ font-size: 20px;
     padding-top: 36px;
     font-size: 14px;
     color: gray;
+}
+.trusted__customers--img {
+
+}
+
+#email {
+    height: 40px;
+    width: 200px;
+    border-radius: 16px;
+    background-color: rgb(230, 241, 251);
+    border: none;
+}
+
+.get__started {
+    height: 36px;
+    border-radius: 16px;
+    background-color: rgb(101, 36, 230);
+    color: white;
+    border: none;
+    position: absolute;
+}
+.input__button--wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.header__email--input {
+    height: 56px;
+    width: 280px;
+    border-radius: 16px;
+    border: none;
+    background-color: aliceblue
+}
+.features__wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;  
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.row__features--heading {
+    align-items: center;
+}
+.features__headline {
+    font-size: 20px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.features__subheading {
+    font-size: 56px;
+}
+
+.features__latin--subheading {
+    color: gray;
+}
+
+.features__icons {
+    flex: wrap;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: row;
+}
+
+.shield {
+    border: 8px;
+    border-color: gray;
 }
