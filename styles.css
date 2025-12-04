@@ -11,6 +11,7 @@ font-family: "Poppins", "Roboto", sans-serif;
     margin: 0 auto;
     display: flex;  
     justify-content: space-between;
+    padding-left: 48px;
 }
 
 nav {
@@ -45,6 +46,7 @@ nav {
 .sign__up--text:hover {
     cursor: pointer;
     text-decoration: underline;
+    transition-duration: all 1s ease;
    
 }
 
@@ -60,15 +62,15 @@ nav {
     text-decoration: none;
 }
 
+
+
 /*FOR YOU*/
 
 .purple {
     color: rgb(101, 36, 230);
 }
 .for__you--wrapper {
-    padding: 60px;
     display: flex;
-    width: 100%;
     max-width: 1200px;
     align-items: center;
     justify-content: space-between;
@@ -78,20 +80,20 @@ nav {
     display: flex;
     flex-direction: column;
     width: 50%;
-    max-width: 400px;
+    max-width: x;
     margin: 0 auto;
     justify-content: space-between;
-    padding: 36px;
+   padding-left: 48px;
 }
 h1 {
     font-size: 40px;
 }
 .for__you--img {
-height: 600px;   
+height: 360px;   
 }
 .text__for--you {
 padding-bottom: 36px;
-font-size: 20px;
+font-size: 16px;
 }
 
 .trusted__customers {
@@ -99,8 +101,8 @@ font-size: 20px;
     font-size: 14px;
     color: gray;
 }
-.trusted__customers--img {
-
+.for__you--img {
+    padding: 200px;
 }
 
 #email {
@@ -135,45 +137,189 @@ font-size: 20px;
     width: 280px;
     border-radius: 16px;
     border: none;
-    background-color: aliceblue
+    background-color: aliceblue;
 }
+/*FEATURES*/
+
 .features__wrapper {
-    width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;  
     justify-content: space-between;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     padding-top: 100px;
+    text-align: center;
 }
 .row__features--heading {
     align-items: center;
+    text-align: center;
 }
-.features__headline {
+.small__headline {
     font-size: 20px;
     align-items: center;
     margin: 0 auto;
 }
 
-.features__subheading {
+.subheading {
     font-size: 56px;
 }
 
 .features__latin--subheading {
     color: gray;
+    max-width: 600px;
+    text-align: center;
+    align-items: center;
 }
 
 .features__icons {
-    flex: wrap;
+    flex-wrap: wrap;
+    display: flex;
     align-items: center;
     margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
     flex-direction: row;
+    padding: 100px;
 }
 
 .shield {
-    border: 8px;
-    border-color: gray;
+    border: solid 1px;
+    border-color: rgb(187, 183, 183);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.secure {
+    width: 360px;
+    max-width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 24px 24px;
+}
+
+.secure__headline {
+    font-size: 24px;
+   text-align: left;
+}
+
+.icons__latin {
+    color: gray;
+    width: 240px;
+}
+
+/*QUALITY WORK*/
+
+.small__headline {
+    font-weight: 500;
+}
+
+.quality__work--latin {
+    color: gray;
+}
+
+.row__quality--work {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.container__text--quality--work {
+    max-width: 600px;
+
+}
+
+#learn__more {
+    background-color: rgb(101, 36, 230);
+    color: white;
+    padding: 12px;
+    border-radius: 16px;
+    border: none;
+    width: 120px;
+}
+.img__quality--work {
+    padding-left: 100px;
+    border: solid 1px;
+    border-color: rgb(199, 197, 197);
+
+}
+.hero__screenshot--1 {
+    max-width: 500px;
+    max-height: fit-content;
+    padding-right: 100px;
+}
+
+/*STEPS*/
+
+.row__steps {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 210px;
+    display: flex;
+    align-items: center;
+}
+
+.steps__list {
+    font-size: 36px;
+    color: rgb(220, 216, 216);
+    font-weight: 700;
+}
+.ol_headlines {
+    color: rgb(31, 29, 29);
+    font-size: 20px;
+    padding-left: 16px;
+    font-weight: 500;
+}
+.ol__text {
+    color: rgb(162, 160, 160);
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 16px;
+}
+
+/*VALUES*/
+.values {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+
+}
+.row__values {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.container__steps--text {
+  max-width: 600px;
+}
+.values__flexbox{
+    display: flex;
+}
+.affordable__row {
+    display: flex;
+}
+
+.professionalism__row {
+    display: flex;
+}
+
+.values__headlines {
+    font-size: 24px;
+    font-weight: 510;
+    color: rgb(74, 73, 73);
+    padding-left: 16px;
+}
+.affordable__text {
+    color: gray;
+    padding-bottom: 60px;
+}
+.values__img {
+    height:500px;
+
 }
