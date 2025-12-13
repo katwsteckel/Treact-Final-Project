@@ -180,6 +180,15 @@ h1 {
 }
 /*FEATURES*/
 
+@media (max-width: 320px) {
+    .features__icons {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: calc(100%/6);
+    }
+}
+
+
 .features__wrapper {
   margin: 0 auto;
   display: flex;
@@ -693,14 +702,18 @@ background-color: red;
 /*for tablets */
 
 @media (max-width: 800px) {
-    main {
+    .for__you--wrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 
     }
+    .row__for--you {
+        width: 100%;
+        padding: 24px;
+    }
 }
-.hamburger {
+.fa-bars {
     display: none; /* Hidden by default */
     font-size: 30px;
     color: rgb(101, 36, 230);;
@@ -723,7 +736,8 @@ background-color: red;
         display: flex; /* Show links when active */
     }
 
-    .hamburger {
+    .fa-bars{
         display: block; /* Show hamburger icon */
+        
     }
 }
