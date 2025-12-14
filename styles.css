@@ -710,6 +710,8 @@ background-color: red;
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+    .quality-container{}
 }
 @media (max-width: 830px) {
     .features__icons {
