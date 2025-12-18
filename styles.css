@@ -639,10 +639,12 @@ penultimate__button {
 }
 .penultimate__get--started:hover {
 background-color: red;
+cursor: pointer;
 }
 .contact__us:hover {
     background-color: white;
     color: rgb(101, 36, 230);
+    cursor: pointer;
 }
 
 /*footer*/
@@ -693,9 +695,12 @@ background-color: red;
     padding: 16px;
 }
 
+.quality-container {
+    display: flex;
+}
 
 /*for tablets */
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .features__icons {
         width: 50%
     }
@@ -703,6 +708,18 @@ background-color: red;
         width: 100%;
         text-align: center;
     }
+
+    .quality-container {
+    display: wrap;
+    flex-wrap: wrap;
+}
+
+.row__quality--work,
+.img__quality--work{
+    width: 100%;
+    max-width: 100%;
+}
+
 }
 @media (max-width: 855px) {
     #quality-work {
@@ -752,10 +769,14 @@ background-color: red;
     color: rgb(101, 36, 230);;
     cursor: pointer;
 }
+
+.hamburger-icon{
+    display: none;
+}
 .row__values {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 /* Media Query for smaller screens */
@@ -774,10 +795,10 @@ background-color: red;
         display: flex; /* Show links when active */
     }
 
-    .fa-bars{
-        display: block; /* Show hamburger icon */
-        
-    }
+
+    .hamburger-icon{
+    display: block;
+}
     .row__testimonials {
         display: flex;
         flex-wrap: wrap;
@@ -818,8 +839,8 @@ background-color: red;
         font-size: smaller;
     }
 }
-@media (max-width: 484) {
-    .values__flexbox {
+@media (max-width: 850px) {
+    .row__values {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
